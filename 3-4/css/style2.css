@@ -1,0 +1,22 @@
+body{
+  background-color: gray;
+}
+
+p{
+  text-align: center;
+  color: white;
+}
+
+h2{
+  text-align: center;
+  color: white;
+}
+
+
+input{
+  text-align: center;
+}
+
+form{
+  text-align: center;
+}
