@@ -1,0 +1,66 @@
+.container{
+  display: flex;
+  /*border: solid 1px black;*/
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.logo{
+  width: 200px;
+  height: 120px;
+  background-color: #add8e6;
+}
+
+img{
+  display: block;
+  margin: 0 auto;
+}
+
+.users{
+  text-align: right;
+  width: 800px;
+  height: 120px;
+
+}
+
+.users .name{
+  background-color: #87ceeb;
+  margin: 0;
+  height: 60px;
+
+}
+
+.users .login{
+  background-color: #00ffff;
+  margin: 0;
+  height: 60px;
+}
+
+table{
+  margin: 0 auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.title{
+  background-color: #87ceeb;
+}
+
+.contens{
+  background-color: #e0ffff;
+}
+
+footer{
+  background-color: #00ced1;
+  height: 120px;
+  position: relative;
+  width: 1000px;
+  margin: 0 auto;
+}
+
+footer p{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  margin: 0;
+}
