@@ -39,15 +39,6 @@ if (!empty($_POST["name"]) && !empty($_POST["password"])){
           }else{
             $err_msg = "ユーザー名に誤りがあります。";
           }
-
-          if ($name == $row["name"]) {
-            header('Location:main.php');
-          }else{
-            $err_msg = "パスワードに誤りがあります。";
-          }
-
-          
-       
     }
 ?>
 
