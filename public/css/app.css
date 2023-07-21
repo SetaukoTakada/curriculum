@@ -1,0 +1,61 @@
+/*ヘッダー*/
+
+header{
+  border-bottom: solid 1px gray;
+  height: 80px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  margin: auto;
+ justify-content: space-around;
+}
+
+select{
+  width: 20px;
+  
+}
+
+/*メイン画面ホーム*/
+h1{
+  font-size: 16px;
+  font-weight: lighter;
+  border: solid .5px gray;
+  height: 44px;
+  padding: 8px;
+  width: 600px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.tweet{
+  border: solid .5px gray;
+  width: 600px;
+  margin: auto;
+  height: 150px;
+ 
+}
+
+.textbox{
+  width: 500px;
+  height: 24px;
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.tweetbutton{
+  height: 20px;
+  width: 68px;
+  margin-top: 50px;
+  margin-left:500px;
+}
+
+/*投稿一覧表示*/
+.tweetbox{
+  display: flex;
+  justify-content:space-between;
+  width: 580px;
+  height: 200px;
+  margin: auto;
+  padding: 10px;
+  border: solid .5px gray;
+}
